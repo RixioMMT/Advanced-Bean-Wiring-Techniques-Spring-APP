@@ -17,4 +17,5 @@ public class TraditionalFeast {
     public void setFish(Fish1 fish) {
         this.fish = fish;
     }
+
 }
