@@ -1,16 +1,13 @@
 package feast.models;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Horse7 {
-    private Camel8 camel8;
-
-    public Horse7(Camel8 camel8) {
-        this.camel8 = camel8;
-    }
-
+    private final Camel8 camel8;
     @Autowired
-    public void setCamel8(Camel8 camel8) {
+    public Horse7(Camel8 camel8) {
         this.camel8 = camel8;
     }
     @Override

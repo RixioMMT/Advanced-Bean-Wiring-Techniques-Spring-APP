@@ -14,8 +14,7 @@ public class AppConfig {
         return new Duck2(chicken);
     }
     @Bean
-    public static Horse7 getHorse(Camel8 camel8) {
-        return new Horse7(camel8);
+    public static Goat6 getGoat(Horse7 horse7) { return new Goat6(horse7);
     }
 
 }
